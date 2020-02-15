@@ -1,0 +1,121 @@
+* {
+	margin: 0px;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 4px 4px;
+	text-align: left;
+}
+body {
+	text-align: center;
+	font-family: cursive;
+}
+.top {
+  background-color: #789;
+  color: #000;
+  height: 90px;
+}
+.top-logo {
+  float: left;
+  font-size: 32px;
+  padding: 15px 30px;
+}
+
+.top-list {
+  float: left;
+}
+
+.top-list li {
+  float: left;
+  padding: 18px 10px;
+}
+.course {
+	text-align: center;
+}
+.Ai {
+	padding: 4px 4px;
+	margin: 2px;
+	color: #787878;
+	border: transparent;
+	text-align: center;
+	font-size: 60px;
+}
+.box {
+	width: 200px
+	padding: 40px;
+	position: relative;
+	top: 40%;
+	left: 40%;
+	transform: translate(-40%,-40%);
+	background: #191919;
+}
+.box input[type = "text"],.box input[type = "password"] {
+	border: 0px;
+	background: none;
+	display: block;
+	margin: 5px;
+	text-align: right;
+	border: 1px solid #3498db;
+	padding: 0px 0px;
+	width: 180px;
+	outline: none;
+	color: white;
+	border-radius: 1px;
+	transition: 0.25s; 
+}
+.Ml {
+	padding: 4px 4px;
+	margin: 2px;
+	color: #787878;
+	border: transparent;
+	text-align: center;
+	font-size: 60px;
+}
+.Ds {
+	padding: 4px 4px;
+	margin: 2px;
+	color: #787878;
+	border: transparent;
+	text-align: center;
+	font-size: 60px;
+}
+.Ai,.Ml,.Ds {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.contact-form {
+  padding-top: 100px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+.footer {
+  background-color: #267167;
+  color: #ccc;
+  height: 60px;
+  padding: 20px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 22px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 2px;
+}
